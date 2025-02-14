@@ -8,7 +8,6 @@ import { toast } from "react-hot-toast";
 const Profile = () => {
   const { user } = useContext(Context);
 
-  if (!user._id) return redirect("/login");
 
   const handleDownload = async () => {
     try {
