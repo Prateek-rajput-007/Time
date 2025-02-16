@@ -5,9 +5,8 @@ import Todos from "./todos";
 const Page = async () => {
   return (
     <div className="container">
-      <Form />
-
       <Suspense fallback={<div>loading...</div>}>
+        <Form />
         <Todos />
       </Suspense>
     </div>
