@@ -14,7 +14,6 @@ export default function RootLayout({ children }) {
       <body>
         <ContextProvider>
           <MainLayout>
-             {/* Use Profile component */}
             {children}
           </MainLayout>
         </ContextProvider>
